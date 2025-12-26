@@ -3,86 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-     <link rel="stylesheet" href="fonts.googleapis.com">
-    <title>JustVal</title>
+    <title>JustVal | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
-        <div>
-            <h2 class="intro">JustVal</h2>
+    <header>
+        <div class="intro">JustVal</div>
+        <nav class="pill-nav">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
 
-            <nav class="pill-nav">
-                <a href="#Home">Home</a>
-                <a href="#About">About</a>
-                <a href="#Projects">Projects</a>
-                <a href="#Contact">Contact</a>
-            </nav>
-        </div>
-
+    <section id = "home">
         <div class="greetings">
             <h1>Hey! I'm Justin!</1>
+            <p>Data & AI Enthusiast</p>
         </div>
     </section>
 
-    <section>
-        <div>
-            <h1>About</h1>
-        </div>
-        <section>
+    <section id = "about">
+        <h1>About</h1>
+        <div id = "about-text">
             <p>
-                enthusiastic and optimistic on the robust and reliability of
-                data, AI, ML, and cloud computing
+                I'm enthusiastic and optimistic on the robust and reliability of
+                <strong>data, AI, ML, and cloud computing</strong>
             </p>
-        </section>
-
-    </section>
-
-    <section>
-        <div>
-            <h1>Contact Me</h1>
         </div>
-        <section>
-            <div>
-                <p>Instagram</p>
-                <div>
-                    <a href="https://www.instagram.com/its.justtval/">INSTAGRAM</a>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div>
-                <p>GitHub</p>
-                <div>
-                    <a href="https://github.com/nittsuj">GITHUB</a>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div>
-                <p>X</p>
-                <div>
-                    <a href="https://x.com/itsjusttval">X</a>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div>
-                <a href="mailto:justinvalentino88@gmail.com">
-                <p>-justinvalentino88@gmail.com-</p>
-                </a>
-            </div>
-
-            <div>
-                <p>JKT -> SBY</p>
-            </div>
-
-        </section>
     </section>
 
+    <section id = "contact">
+        <h1>Contact Me</h1>
+        <div class="contact-container">
+            <a href="https://www.instagram.com/its.justtval/" class="contact-card" target="_blank">INSTAGRAM</a>
+            <a href="https://github.com/nittsuj" class="contact-card" target="_blank">GITHUB</a>
+            <a href="https://x.com/itsjusttval" class="contact-card" target="_blank">X</a>
+        </div>
+        <a href="mailto:justinvalentino88@gmail.com" class="email-link">
+            justinvalentino88@gmail.com
+        </a>
+        
+        <p class="location-tag">JKT &rarr; SBY</p>
     </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
